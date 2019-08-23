@@ -1,0 +1,8 @@
+pip install pyinstaller
+pyinstaller --onefile -w --icon=<icon_path> filename
+
+-w  Shows it is a window application if it is a command based application then there is no need to use this
+
+--icon to set the customised icon for the application not mandatory
+
+--app will be stored in the dist folder
